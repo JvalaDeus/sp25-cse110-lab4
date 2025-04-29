@@ -1,0 +1,7 @@
+1. Line 9 will print out 'values added: 20'
+2. Line 13 will print out 'Final Result: 20'
+3. We should not use var because var has a function scope rather than a block scope. This means that variables declared with var can be accessed outside of the block that you want it to be limited to. Var also is 'hoisted' to the top of the function which means the variable will exist before the initialization statment is run.
+4. Line 9 will print out 'Values Added: 20'
+5. Line 13 will result in an error because result is not defined in that block scope. It was defined using let which is limited to the scope of just that block, and thus result is not accessible to the statment on line 13.
+6. The code will hit an error by line 9. result is declared with a 'const', which as the name implies, is constant & not changeable. Which means that on line 7, when the code gets a type error when it attempts to reassign result. So line 9 wont be reached.
+7. The code will hit an error by line 9. result is declared with a 'const', which as the name implies, is constant & not changeable. Which means that on line 7, when the code gets a type error when it attempts to reassign result. So it will not reach line 13.
