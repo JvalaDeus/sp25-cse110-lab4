@@ -9,3 +9,9 @@
 9. Line 11 will cause a reference error because i was declared with let inside the for loop, which means that it is only accessible in the for loop. This means that it cannot be accessed on line 11.
 10. Line 12 will print out `3` because length is declared with a const outside the loop, which means that it is accessible by console.log(length)
 11. This function will return `[50,100,150]` because const allows the contents of the array to be changed, but not the binding. However, push are still allowed for arrays declared with const.
+12. Answers for Q12 (using numbers instead of letters)
+    1.  student.name
+    2.  student["Grad Year"]
+    3.  student.greeting()
+    4.  student["Favorite Teacher"].name
+    5.  student.courseload[0]
