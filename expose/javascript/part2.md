@@ -42,8 +42,8 @@
     6.  doSomething(3) results in 6, then pushes 6 to newArr
 18. Answer on part2-question18.js
 19. The output would be
-    1
-    4
-    3
-    2
+    ```1```
+    ```4```
+    ```3```
+    ```2```
     because console.log(1) is the first line, so it would be the first thing to be outputted. The next two lines have a timeout, so that means console.log(4) on line 5 would be the next thing to output. So 4 would be output. Then line 4 would output 3 before line 3 can output 2. This is because line 4 has a timeout of 0 and line 3 has a timeout of 1000.
