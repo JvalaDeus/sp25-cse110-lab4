@@ -1,0 +1,2 @@
+1. When I used 3 and 10 as the numbers to add, the result was 310. When I looked at the "watch", the types of both num1 and num2 were strings. So I think the bug is that num1 and num2 are being treated as strings, not nums. So the + is performing string concatenation rather than numeric addition, so which is why the output was 'num1num2' instead of the sum of num1 and num2.
+2. I would fix it by adding a type cast to Number around the DOM element access for num1 and num2
